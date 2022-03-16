@@ -1,0 +1,12 @@
+{
+  "name": "phlnx/phishing-frenzy-templates",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "phlnx",
+      "email": "mnlg@pm.me"
+    }
+  ]
+}

